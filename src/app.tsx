@@ -19,12 +19,12 @@ const App: Component = (props: { children: Element }) => {
             </A>
           </li>
           <li class="py-2 px-4">
-            <A href="/error" class="no-underline hover:underline">
+            <A href="/" class="no-underline hover:underline">
               NewTab!
             </A>
           </li>
           <li class="py-2 px-4">
-            <A href="/" class="no-underline hover:underline">
+            <A href="/error" class="no-underline hover:underline">
               Error
             </A>
           </li>
