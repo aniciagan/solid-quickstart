@@ -40,12 +40,6 @@ const App: Component = (props: { children: Element }) => {
           </li>
         </ul>
       </nav>
-
-      <main class="max-w-2xl mx-auto h-screen flex flex-col justify-center px-4">
-        <h1 class="text-5xl mx-auto mb-8 text-slate-600 font-light">Welcome to my Page!</h1>
-        <Suspense>{props.children}</Suspense>
-      </main>
-    </div>
   );
 };
 
