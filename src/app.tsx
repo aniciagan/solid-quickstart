@@ -15,17 +15,17 @@ const App: Component = (props: { children: Element }) => {
               Home
             </A>
           </li>
-          <li class="py-2 px-4">
+          <li class="py-2 px-6">
             <A href="/Analytics" class="no-underline hover:underline text-2xl">
               Analytics
             </A>
           </li>
-          <li class="py-2 px-4">
+          <li class="py-2 px-6">
             <A href="/Documentations" class="no-underline hover:underline text-2xl">
               Documentations
             </A>
           </li>
-          <li class="py-2 px-4">
+          <li class="py-2 px-6">
             <A href="/Reporting" class="no-underline hover:underline text-2xl">
               Reporting
             </A>
