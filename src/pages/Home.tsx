@@ -11,8 +11,8 @@ export default function Home() {
       </Suspense>
 
       <section class="bg-slate-200 text-slate-700 p-8 rounded-md">
-       // <h2 class="text-2xl">This is a page introducing myself and my skillsets</h2>
-        <p class="mt-4">This is a page introducing myself and my skillsets</p>
+         {/* <h2 class="text-2xl">This is a page introducing myself and my skillsets</h2> */}
+        <p class="mt-3">This is a page introducing myself and my skillsets</p>
       </section>
     </main>
   );
