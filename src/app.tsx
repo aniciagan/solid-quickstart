@@ -7,8 +7,8 @@ const App: Component = (props: { children: Element }) => {
   return (
     <div>
       {/* Updated Nav: Blue background and larger text */}
-      <nav class="bg-blue-200 text-white px-6 py-2 shadow-lg transition-all duration-300 hover:bg-blue-800">
-        <div class="max-w-5xl mx-auto">
+      <nav class="bg-blue-900 text-black px-6 py-2 shadow-lg transition-all duration-300 hover:bg-blue-400">
+        <div class="w-full">
           <ul class="flex justify-start items-center space-x-6">
             <li><A href="/" class="no-underline hover:underline text-lg">Home</A></li>
             <li><A href="/Analytics" class="no-underline hover:underline text-lg">Analytics</A></li>
@@ -17,6 +17,7 @@ const App: Component = (props: { children: Element }) => {
           </ul>
         </div>
       </nav>
+
 
       {/* Here we should render the children */}
       {props.children}
