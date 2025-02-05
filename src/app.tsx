@@ -20,7 +20,7 @@ const App: Component = (props: { children: Element }) => {
           </li>
           <li class="py-2 px-4">
             <A href="/Documentations" class="no-underline hover:underline">
-              Documentations 
+              Documentations
             </A>
           </li>
           <li class="py-2 px-4">
@@ -40,6 +40,10 @@ const App: Component = (props: { children: Element }) => {
           </li>
         </ul>
       </nav>
+
+      {/* Here we should render the children */}
+      {props.children}
+    </div>
   );
 };
 
