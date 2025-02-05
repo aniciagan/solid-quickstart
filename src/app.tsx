@@ -6,38 +6,30 @@ const App: Component = (props: { children: Element }) => {
 
   return (
     <div>
-      <nav class="bg-slate-100 text-slate-900 px-4">
+      {/* Updated Nav: Blue background and larger text */}
+      <nav class="bg-blue-500 text-white px-4 py-2">
         <ul class="flex items-center">
           <li class="py-2 px-4">
-            <A href="/" class="no-underline hover:underline">
+            <A href="/" class="no-underline hover:underline text-2xl">
               Home
             </A>
           </li>
           <li class="py-2 px-4">
-            <A href="/Analytics" class="no-underline hover:underline">
+            <A href="/Analytics" class="no-underline hover:underline text-2xl">
               Analytics
             </A>
           </li>
           <li class="py-2 px-4">
-            <A href="/Documentations" class="no-underline hover:underline">
+            <A href="/Documentations" class="no-underline hover:underline text-2xl">
               Documentations
             </A>
           </li>
           <li class="py-2 px-4">
-            <A href="/Reporting" class="no-underline hover:underline">
+            <A href="/Reporting" class="no-underline hover:underline text-2xl">
               Reporting
             </A>
           </li>
-
-          <li class="text-sm flex items-center space-x-1 ml-auto">
-            <span>URL:</span>
-            <input
-              class="w-75px p-1 bg-white text-sm rounded-lg"
-              type="text"
-              readOnly
-              value={location.pathname}
-            />
-          </li>
+          {/* Removed the URL input field */}
         </ul>
       </nav>
 
