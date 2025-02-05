@@ -3,7 +3,7 @@ import type { RouteDefinition } from '@solidjs/router';
 
 import Home from './pages/Home';
 import Analytics from './pages/Analytics';
-import Documentation from './pages/Documentation';
+import Documentations from './pages/Documentations';
 import Reporting from './pages/Reporting';
 
 
@@ -18,9 +18,9 @@ export const routes: RouteDefinition[] = [
     data: Analytics,
   },
   {
-    path: '/Documentation',
-    component: lazy(() => import('./pages/Documentation')),
-    data: Documentation,
+    path: '/Documentations',
+    component: lazy(() => import('./pages/Documentations')),
+    data: Documentations,
   },
   {
     path: '/Reporting',
