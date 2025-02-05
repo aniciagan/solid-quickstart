@@ -16,9 +16,9 @@ export default function Home() {
 
       {/* Scrollable second section */}
       <section class="bg-slate-200 p-8">
-        <h2 class="text-3xl font-semibold text-slate-700">Next Page Content</h2>
+        <h3 class="text-3xl font-semibold text-slate-700">Tech Business Analyst!</h3>
         <p class="mt-4 text-slate-600">
-          This is the second section, and it will be visible once you scroll down. You can add more content here!
+          Being a Business Analyst means that you wear multiple hats and you are not doing a mundane job.
         </p>
       </section>
     </div>
