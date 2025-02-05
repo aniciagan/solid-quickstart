@@ -7,9 +7,10 @@ const App: Component = (props: { children: Element }) => {
   return (
     <div>
       {/* Updated Nav: Blue background and larger text */}
-      <nav class="bg-blue-1000 text-white px-4 py-1 shadow-md hover:bg-blue-900 transition-all duration-300">
-        <ul class="flex items-center">
-          <li class="py-2 px-4">
+    
+      <nav class="bg-blue-900 text-white px-6 py-2 shadow-lg transition-all duration-300 hover:bg-blue-800">
+        <ul class="flex items-center space-x-4">
+          <li class="flex items-center space-x-2">
             <A href="/" class="no-underline hover:underline text-2xl">
               Home
             </A>
