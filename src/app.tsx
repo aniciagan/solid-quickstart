@@ -10,19 +10,19 @@ const App: Component = (props: { children: Element }) => {
         <div class="w-full">
           <ul class="flex justify-start items-center space-x-8">
             <li><a href="/" class="no-underline font-medium text-gray-300 hover:text-white transition-colors duration-300 relative">
-                <span class="block rounded-md px-4 py-2 hover:bg-gray-700 absolute inset-0 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105"></span>
+                <span class="block rounded-md px-3 py-1 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105 hover:px-4 hover:py-2"></span>
                 Home
               </a></li>
             <li><a href="/Analytics" class="no-underline font-medium text-gray-300 hover:text-white transition-colors duration-300 relative">
-                <span class="block rounded-md px-4 py-2 hover:bg-gray-700 absolute inset-0 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105"></span>
+                <span class="block rounded-md px-3 py-1 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105 hover:px-4 hover:py-2"></span>
                 Analytics
               </a></li>
             <li><a href="/Documentations" class="no-underline font-medium text-gray-300 hover:text-white transition-colors duration-300 relative">
-                <span class="block rounded-md px-4 py-2 hover:bg-gray-700 absolute inset-0 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105"></span>
+                <span class="block rounded-md px-3 py-1 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105 hover:px-4 hover:py-2"></span>
                 Documentations
               </a></li>
             <li><a href="/Reporting" class="no-underline font-medium text-gray-300 hover:text-white transition-colors duration-300 relative">
-                <span class="block rounded-md px-4 py-2 hover:bg-gray-700 absolute inset-0 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105"></span>
+                <span class="block rounded-md px-3 py-1 transition-all duration-300 opacity-0 hover:opacity-100 hover:scale-105 hover:px-4 hover:py-2"></span>
                 Reporting
               </a></li>
           </ul>
