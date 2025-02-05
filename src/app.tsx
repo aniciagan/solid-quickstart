@@ -9,7 +9,7 @@ const App: Component = (props: { children: Element }) => {
       {/* Updated Nav: Blue background and larger text */}
       <nav class="bg-blue-900 text-white px-6 py-2 shadow-lg transition-all duration-300 hover:bg-blue-800">
         <div class="max-w-5xl mx-auto">
-          <ul class="flex justify-between items-center w-full">
+          <ul class="flex justify-between items-left w-left">
             <li><A href="/" class="no-underline hover:underline text-lg">Home</A></li>
             <li><A href="/Analytics" class="no-underline hover:underline text-lg">Analytics</A></li>
             <li><A href="/Documentations" class="no-underline hover:underline text-lg">Documentations</A></li>
