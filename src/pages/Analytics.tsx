@@ -1,6 +1,6 @@
 import { createSignal } from "solid-js";
 
-export default function Home() {
+export default function Analytics() {
   const [count, setCount] = createSignal(0);
 
   return (
