@@ -1,5 +1,5 @@
 import { createSignal, Suspense } from "solid-js";
-import myImage from 'src/Picture1.png'; // Import your image
+import myImage from '/Picture1.png'; // Import your image
 
 export default function Home() {
   const [count, setCount] = createSignal(0);
